@@ -19,8 +19,10 @@ Searched books have text on their bottom, weather it is already exist in booksto
 
 *Added some books with popular keywords to the inventory using Google book API with a script(base_script.py)
 
-Delete and Edit options are only for the books that are in the inventory.
-* Install Requirements *
+Create a virtual environment.
+git clone https://github.com/prakashsing/BIM.git
+
+Install Requirements *
 
 pip install -r requirements.txt
 python3 manage.py makemigrations
